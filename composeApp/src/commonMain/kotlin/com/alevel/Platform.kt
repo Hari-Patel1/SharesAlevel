@@ -1,0 +1,7 @@
+package com.alevel
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
